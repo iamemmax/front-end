@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const ApiKey = process.env.REACT_APP_OMDB_API_KEY;
-const AccessKey = process.env.REACT_APP_OMDB_ACCESS_KEY;
+// const ApiKey = process.env.REACT_APP_OMDB_API_KEY;
+// const AccessKey = process.env.REACT_APP_OMDB_ACCESS_KEY;
 
 export const fetchMovies = async (data) => {
   const response = await axios.get(

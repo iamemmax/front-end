@@ -1,10 +1,10 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Search from "../../component/Header/Search";
-import Banner from "../../component/Homepage/Banner";
-import Loading from "../../component/config/Loading";
-import { getMovies, getShow } from "../../features/Product/fetchMovieSlice";
+// import Search from "../../component/Header/Search";
+// import Banner from "../../component/Homepage/Banner";
+// import Loading from "../../component/config/Loading";
+import { getMovies } from "../../features/Product/fetchMovieSlice";
 import { getSeries } from "../../features/Product/fetchShow";
 import DisplayMovies from "../../component/Homepage/DisplayMovies";
 import "../../component/Homepage/style/movies.scss";

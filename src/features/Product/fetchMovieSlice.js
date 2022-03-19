@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { queryAllByTestId } from "@testing-library/react";
 import { fetchMovies, fetchSeries } from "./movieService";
 
 export const getMovies = createAsyncThunk(
