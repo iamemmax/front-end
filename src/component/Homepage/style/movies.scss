@@ -1,0 +1,36 @@
+.movies,
+.series {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 10px;
+  grid-column-gap: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-blend-mode: color;
+  }
+  .movies-box {
+    height: 280px;
+    position: relative;
+    text-align: center;
+  }
+  p {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    font-weight: 900;
+  }
+}
+.container {
+  position: relative;
+  background-color: #fff;
+
+  opacity: 1 !important;
+}
